@@ -1,0 +1,89 @@
+
+.noticias{
+    display: inline-grid;
+    grid-template-areas: 
+    "principal principal secundaria"
+    "principal principal terciaria"
+    "cuarta quinta sexta"
+    ;
+}
+.noticiaPrincipal{
+    grid-area: principal;
+    list-style: none;
+    font-size: 5rem;
+    font-weight: bold;
+    border-right: solid;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+.noticiaSecundaria{
+    grid-area: secundaria;
+    list-style: none;
+    padding-left: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    animation-duration: 6s;
+    animation-name: aparecer;
+}
+.noticiaTerciaria{
+    grid-area: terciaria;
+    list-style: none;
+    padding-left: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    animation-duration: 6s;
+    animation-name: aparecer;
+}
+.noticiaCuarta{
+    grid-area: cuarta;
+    list-style: none;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border: solid black;
+    animation-duration: 6s;
+    animation-name: aparecer;
+}
+.noticiaQuinta{
+    grid-area: quinta;
+    list-style: none;
+    border: solid black;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    animation-duration: 6s;
+    animation-name: aparecer;
+}
+.noticiaSexta{
+    grid-area: sexta;
+    list-style: none;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border: solid black;
+    animation-duration: 6s;
+    animation-name: aparecer;
+}
+
+
+
+@media (max-width:780px){
+    .noticias{
+    display: flex;
+    flex-direction: column;
+    }
+}
+.noticias li{
+    align-items: flex-start;
+}
+.noticias p{
+    font-weight: normal;
+    font-size: 2rem;
+}
+.noticias li p{
+    font-size: 2.5rem;
+}

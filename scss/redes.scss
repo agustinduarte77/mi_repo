@@ -1,0 +1,20 @@
+.redesSociales{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.redesSociales li{
+    margin: 1rem;
+}
+.redesSociales ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
