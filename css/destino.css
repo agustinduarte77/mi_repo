@@ -20,6 +20,11 @@ aaaaaaa*/
   justify-content: center;
   margin-top: 2rem; }
 
+.redesSociales li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .noticias {
   display: inline-grid;
   grid-template-areas: "principal principal secundaria" "principal principal terciaria" "cuarta quinta sexta"; }
