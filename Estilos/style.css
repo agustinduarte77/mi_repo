@@ -75,16 +75,6 @@ footer{
 /*Fin estilos generales*/
 
 
-/*Comienzo estilos pagina NOTICIAS*/
-.noticias{
-    padding-left: 4rem;
-    padding-right: 4rem;
-}
-.noticias li div:hover {
-    color: var(--claro);
-}
-
-/*Fin estilos pagina NOTICIAS*/
 
 .parrafoDescripcion{
     margin-top: 5rem;
@@ -131,10 +121,7 @@ th{
 }
 /*Aca terminan los estilos de pagina TIENDA*/
 
-h3{ 
-    text-align: justify;
-    color: darkblue; 
-}
+
 /*Aca Empiezan los estilos de pagina FIGURAS*/
 .equipo{ 
     text-align: center;
