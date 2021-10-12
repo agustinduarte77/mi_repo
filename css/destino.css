@@ -27,7 +27,9 @@ aaaaaaa*/
 
 .noticias {
   display: inline-grid;
-  grid-template-areas: "principal principal secundaria" "principal principal terciaria" "cuarta quinta sexta"; }
+  grid-template-areas: "principal principal secundaria"
+  "principal principal terciaria"
+  "cuarta quinta sexta"; }
 
 .noticiaPrincipal {
   grid-area: principal;
