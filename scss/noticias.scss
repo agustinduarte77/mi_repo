@@ -2,7 +2,8 @@
     display: inline-grid;
     grid-template-areas: "principal principal secundaria"
     "principal principal terciaria"
-    "cuarta quinta sexta"; }
+    "cuarta quinta sexta"; 
+}
     
     .noticiaPrincipal {
     grid-area: principal;
@@ -87,3 +88,6 @@
         color: $claro;
     }
     
+    .noticias li div, p{
+        color: black;
+    }

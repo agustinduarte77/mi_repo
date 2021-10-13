@@ -27,9 +27,7 @@ aaaaaaa*/
 
 .noticias {
   display: inline-grid;
-  grid-template-areas: "principal principal secundaria"
-  "principal principal terciaria"
-  "cuarta quinta sexta"; }
+  grid-template-areas: "principal principal secundaria" "principal principal terciaria" "cuarta quinta sexta"; }
 
 .noticiaPrincipal {
   grid-area: principal;
@@ -112,6 +110,9 @@ aaaaaaa*/
 
 .noticias li div:hover {
   color: #2baac8; }
+
+.noticias li div, p {
+  color: black; }
 
 .listaPrincipal {
   font-family: 'News Cycle', sans-serif;

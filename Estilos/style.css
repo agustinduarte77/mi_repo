@@ -8,6 +8,13 @@ body {
     justify-content: center;
     margin: 10rem;
 }
+@media (max-width:780px){
+    .carousel{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 .tarjeta {
     display: flex;
     height: 45rem;
@@ -137,7 +144,7 @@ a{
     color: black;
 }
 body{
-    background-image: radial-gradient(circle,var(--oscuro2), black);
+    background-image: radial-gradient(circle, #d5d5d5, var(--oscuro2));
 }
 
 footer{
@@ -164,7 +171,6 @@ footer{
     text-align: center;
     margin: 0rem;
     padding-top: 3rem;
-    padding-bottom: 
 
 }
 .nombreEmpresa a {
@@ -177,8 +183,6 @@ footer{
 }
 /*Fin estilos generales*/
 
-
-
 .parrafoDescripcion{
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -188,42 +192,6 @@ footer{
 .registroUsuario{
     font-size: x-large;
 }
-/*Aca empiezan los estilos de pagina TIENDA*/
-.tablaProductos{
-    font-size: 1.2rem;
-    background-color: var();
-    border: black 0.2rem solid;
-    text-align: left;
-    margin: 1rem 2rem;
-    color: #181E3A;
-    margin:auto;
-    margin-top: 2rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
-}
-tr{
-    border: black 0.2rem solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    color: var(--claro);
-}
-td{
-    padding: 5rem;
-}
-
-th{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    color: var(--oscuro);
-    border: black 0.2rem solid;
-
-}
-/*Aca terminan los estilos de pagina TIENDA*/
-
 
 /*Aca Empiezan los estilos de pagina FIGURAS*/
 .equipo{ 
