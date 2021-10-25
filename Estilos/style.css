@@ -128,17 +128,7 @@ body{
     margin: 0;
     padding: 0;
 }
-video{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -100;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -169,7 +159,6 @@ footer{
 
 .nombreEmpresa{
     text-align: center;
-    margin: 0rem;
     padding-top: 3rem;
 
 }
@@ -180,6 +169,7 @@ footer{
     font-size: 8rem;
     font-family: 'Russo One', sans-serif;
     letter-spacing: 0.5rem;
+    width: 100%;
 }
 /*Fin estilos generales*/
 
@@ -193,27 +183,6 @@ footer{
     font-size: x-large;
 }
 
-/*Aca Empiezan los estilos de pagina FIGURAS*/
-.equipo{ 
-    text-align: center;
-    color: #BCD8ED;
-    font-size: 3rem;
-}
-.nuestroEquipo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.nuestroEquipo div{
-    max-width: 30%;
-    font-size: 2rem;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-}
-
-/*Aca terminan los estilos de pagina FIGURAS*/
 
 
 /* Estilos para pagina JUGADAS*/
@@ -221,23 +190,43 @@ footer{
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 5rem;
-    margin-top: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .listaJugadas li{
     list-style: none;
     border: outset 0.5rem black;
-    margin: 5rem;
+    width: 100%;
+    margin: 4rem;
 }
-
+.listaJugadas li iframe{
+    width: 100%;
+    margin: auto;
+}
+@media (max-width: 780px) {
+    .listaJugadas {
+        display: flex;
+        flex-direction: column; } }
 
 /* Estilos para pagina Sobre nosotros*/
 .parrafoDescripcion{
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: auto;
 }
+    
+.parrafoDescripcion p{
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 

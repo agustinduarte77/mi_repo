@@ -151,10 +151,10 @@ aaaaaaa*/
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  padding: 5rem; }
+  align-items: center;
+  justify-content: center; }
 
 .card {
-  /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background-color: #207d94;
@@ -162,9 +162,62 @@ aaaaaaa*/
   padding: 2rem;
   justify-content: space-between; }
 
-/* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 4rem 4rem 4rem 4rem rgba(0, 0, 0, 0.2); }
 
 .container {
   padding: 2px 16px; }
+
+@media (max-width: 780px) {
+  .productos {
+    display: flex;
+    flex-direction: column; } }
+
+.equipo {
+  text-align: center;
+  color: #BCD8ED;
+  font-size: 3rem; }
+
+.nuestroEquipo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem; }
+
+.nuestroEquipo div {
+  display: grid;
+  grid-template-areas: "foto foto texto" "foto foto texto";
+  grid-template-columns: 30% 30% 40%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 2rem; }
+
+.foto img {
+  width: 100%;
+  height: auto; }
+
+.foto {
+  grid-area: foto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem; }
+
+.texto {
+  grid-area: texto;
+  width: 100%;
+  height: auto; }
+
+.texto h2 {
+  padding-bottom: 2rem;
+  font-size: 5rem; }
+
+@media (max-width: 780px) {
+  .nuestroEquipo {
+    margin: 1rem; }
+  .nuestroEquipo div {
+    display: flex;
+    flex-direction: column; }
+  .foto {
+    padding: 0rem; } }
