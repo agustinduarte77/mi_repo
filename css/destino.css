@@ -41,7 +41,6 @@ aaaaaaa*/
 .noticiaSecundaria {
   grid-area: secundaria;
   list-style: none;
-  padding-left: 2rem;
   font-size: 3rem;
   font-weight: bold;
   animation-duration: 6s;
@@ -50,7 +49,6 @@ aaaaaaa*/
 .noticiaTerciaria {
   grid-area: terciaria;
   list-style: none;
-  padding-left: 2rem;
   font-size: 3rem;
   font-weight: bold;
   animation-duration: 6s;
